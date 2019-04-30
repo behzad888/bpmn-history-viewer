@@ -1,13 +1,9 @@
-'use strict';
+"use strict";
 
-function _classCallCheck(instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError('Cannot call a class as a function');
-  }
-}
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var A = function A() {
-  _classCallCheck(this, A);
+var Viewer = function Viewer() {
+  _classCallCheck(this, Viewer);
 
   alert('salam');
 };

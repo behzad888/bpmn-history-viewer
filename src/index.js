@@ -1,4 +1,4 @@
-class A {
+class Viewer {
   constructor() {
     alert('salam');
   }
