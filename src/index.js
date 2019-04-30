@@ -1,5 +1,5 @@
 class A {
-  constructor(){
-    alert('salam')
+  constructor() {
+    alert('salam');
   }
 }

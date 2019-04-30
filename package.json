@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
-    "test": "jest --config ./scripts/jest/config.js" 
+    "test": "jest --config ./scripts/jest/config.js",
+    "prettier": "node ./scripts/prettier/index.js write-changed",
+    "prettier-all": "node ./scripts/prettier/index.js write"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "babel-jest": "^24.7.1",
-    "jest": "^24.7.1"
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0"
   }
 }
