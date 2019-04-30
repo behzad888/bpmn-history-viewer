@@ -1,0 +1,31 @@
+{
+  "name": "bpmn-history-viewer",
+  "version": "0.0.1",
+  "description": "BPMN History viewer",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "jest --config ./scripts/jest/config.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behzad888/bpmn-history-viewer.git"
+  },
+  "keywords": [
+    "bpmn",
+    "viewer"
+  ],
+  "author": "Behzad Abbasi <https://overafaik.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/behzad888/bpmn-history-viewer/issues"
+  },
+  "homepage": "https://github.com/behzad888/bpmn-history-viewer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1"
+  }
+}
